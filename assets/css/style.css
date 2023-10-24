@@ -288,12 +288,13 @@ img {
 ================================== */
 
 .evolution .main {
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 50px;
     background: #FFF;
     box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
     -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
     -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+
 }
 
 .evolution .main h6 {
