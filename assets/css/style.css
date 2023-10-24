@@ -195,7 +195,7 @@ img {
     padding: 100px;
 }
 
-.common-header {
+.common-heading {
     font-size: 40px;
     font-weight: 700;
     color: var(--primary-color);
@@ -278,7 +278,26 @@ iframe {
 }
 
 
+/* ==================================
+======== Evolution css starts from here
+================================== */
 
+.evolution .main {
+    margin-top: 40px;
+}
+
+.evolution .main h6 {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #FEE6E6;
+    color: red;
+    display: inline;
+    border-radius: 20px;
+}
+
+.evolution .main h2 {
+    font-size: 32px;
+}
 
 /* ==================================
 ======== toggle css starts from here
