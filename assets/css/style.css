@@ -335,27 +335,27 @@ img {
 
 
 
-
-
 /* ==================================
-======== toggle css starts from here
+======== service css starts from here
 ================================== */
 
 
-.hidden {
+
+.service .service_slider .hidden {
     display: none;
 }
 
-.active {
+.service .service_slider .active {
     display: block;
 }
 
-.active-button {
+.service .service_slider .active-button {
     background-color: #007bff;
     color: #fff;
 }
 
-.box {
-    height: 150px;
-    width: 300px
+.service .service_slider .topbar button {
+    padding: 8px 25px;
+    border-radius: 25px;
+    border: 0;
 }
