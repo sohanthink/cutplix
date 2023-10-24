@@ -74,10 +74,8 @@ html {
 }
 
 body {
-    color: #1b1b1b;
-    font-weight: 400;
-    font-family: "Source Sans Pro", sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
     overflow-x: hidden;
 }
 
@@ -210,9 +208,74 @@ img {
     color: var(--secondary-color);
 }
 
+.primary_btn {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+.secondary_btn {
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+/* ==================================
+======== banner css starts from here
+================================== */
 
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio for responsive video */
+    overflow: hidden;
+}
 
+/* Style for the video iframe */
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the overlay banner */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the overlay text */
+.overlay-text {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.banner_video {
+    width: 1920px;
+    height: 1080px;
+}
+
+.banner .overlay h2 {
+    font-size: 48px;
+}
+
+.banner .overlay span {
+    font-size: 25px;
+    padding: 60px 0;
+}
 
 
 
@@ -220,6 +283,8 @@ img {
 /* ==================================
 ======== toggle css starts from here
 ================================== */
+
+
 .hidden {
     display: none;
 }

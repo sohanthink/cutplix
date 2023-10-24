@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Collapse Example</title>
+    <title>Cutplix</title>
 
     <!-- Include Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -11,13 +11,68 @@
 </head>
 <body>
 
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <div class="left">
+                    <a class="navbar-brand d-block" href="#"><img src="assets/images/logo-01-01.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+              </div>
+
+              <div class="middle">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item me-4">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#">Service</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#" >Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Career</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+
+              <div class="right">
+                <a href="#" class="primary_btn me-3">Learn</a>
+                <a href="#" class="secondary_btn">Get in Touch</a>
+              </div>
+              
+            </div>
+          </nav>
+    </section>
 
 
+    <!-- ============================== 
+        banner section starts from here
+    ================================= -->
+    
+    
+    <div id="banner" class="banner">
+        <div class="video-container">
+            <iframe class="banner_video" src="https://www.youtube.com/embed/SwhNWQFbeI0?autoplay=1&mute=1&controls=0"></iframe>
+            
+            <div class="overlay">
+              <div class="overlay-text">
+                <h2>Crafting Visual Stories, Shaping<br> Digital Futures</h2>
+                <span class="d-block">Unlock Your Potential with Cutplix</span>
+                <a href="#" class="primary_btn">Get Creative</a>
+              </div>
+            </div>
+          </div>
+    </div>
 
 
     
     <!-- toggle section -->
-    <div class="container">
+    <!-- <div class="container">
         <button id="btn1" class="active-button" onclick="showDiv(1)">Button 1</button>
         <button id="btn2" onclick="showDiv(2)">Button 2</button>
         <button id="btn3" onclick="showDiv(3)">Button 3</button>
@@ -36,7 +91,7 @@
         <div id="div3" class="hidden">Div 3 is hidden</div>
         <div id="div4" class="hidden">Div 4 is hidden</div>
         <div id="div5" class="hidden">Div 5 is hidden</div>
-    </div>
+    </div> -->
 
 
 
