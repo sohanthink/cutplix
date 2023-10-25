@@ -75,7 +75,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f4f4f4;
     overflow-x: hidden;
 }
 
@@ -523,4 +523,61 @@ img {
 
 .contact .main .right .form .color-g {
     background-color: #F4F4F4;
+}
+
+/* ======================================
+======== footer css starts from here
+========================================= */
+
+.footer {
+    background: #120F16;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer .content {
+    background: #211C28;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer .main {
+    position: relative;
+}
+
+.footer .main::after {
+    content: '';
+    height: .5px;
+    width: 100%;
+    background-color: #E9E8EA;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.footer .content h3 {
+    font-size: 20px;
+}
+
+.footer .content .footer_frm {
+    width: 150px;
+    border-radius: 0;
+}
+
+.footer .content .footer_btn {
+    color: rgb(16, 16, 16);
+    padding: 10px 20px;
+    background: #E9E8EA;
+    border: 0;
+    font-size: 12px;
+}
+
+.footer .content p {
+    color: #E9E8EA;
+    font-size: 12px;
+}
+
+.footer .main .copyright {
+    padding-top: 100px;
 }
