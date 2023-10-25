@@ -381,3 +381,84 @@ img {
     -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
     -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
 }
+
+/* ======================================
+======== satisfaction css starts from here
+========================================= */
+
+.satisfaction .main {
+    margin-top: 60px;
+
+}
+
+.satisfaction .main .img {
+    width: 45%;
+}
+
+.satisfaction .main .img img {
+    width: 70%;
+}
+
+.satisfaction .main .content {
+    width: 55%;
+    text-align: left;
+}
+
+.satisfaction .main .content .flx span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#slider-container {
+    width: 1100px;
+    /* Adjust the width as needed */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#slider-content {
+    display: flex;
+    transition: transform 0.3s ease;
+
+}
+
+.slider-item {
+    flex: 0 0 100%;
+    width: 1100px;
+    /* Adjust the width as needed */
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+    /* box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68); */
+    border-radius: 10px;
+
+}
+
+#prevBtn,
+#nextBtn {
+    cursor: pointer;
+    background: white;
+    padding: 5px 10px;
+    border: navajowhite;
+}
+
+/* .dot-container {
+    text-align: center;
+    margin-top: 10px;
+} */
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
