@@ -103,6 +103,7 @@ input:-webkit-autofill {
 ul,
 ol {
     list-style: none;
+    padding: 0;
 }
 
 img {
@@ -461,4 +462,18 @@ img {
 
 .dot.active {
     background-color: #333;
+}
+
+/* ======================================
+======== contact css starts from here
+========================================= */
+
+.contact .main .left .top h3 {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.contact .main .content {
+    background: #211C28;
+    color: white;
 }
