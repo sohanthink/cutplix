@@ -100,3 +100,26 @@ const sliderContainer = document.getElementById('slider-container');
         sliderContainer.addEventListener('mouseenter', stopAutoplay);
         sliderContainer.addEventListener('mouseleave', startAutoplay);
 
+
+
+// =============================
+// portfolio slider js
+// ==========================
+        
+
+// function PshowDiv(divNumber) {
+//   for (let i = 11; i <= 14; i++) {
+//       const Pdiv = document.getElementById(`div${i}`);
+//       const Pbutton = document.getElementById(`btn${i}`);
+
+//       if (i === divNumber) {
+//           Pdiv.classList.add('active');
+//           Pdiv.classList.remove('hidden');
+//           Pbutton.classList.add('active-button');
+//       } else {
+//           Pdiv.classList.remove('active');
+//           Pdiv.classList.add('hidden');
+//           Pbutton.classList.remove('active-button');
+//       }
+//   }
+// }

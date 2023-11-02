@@ -581,3 +581,33 @@ img {
 .footer .main .copyright {
     padding-top: 100px;
 }
+
+
+/* =======================================================================================================================
+==================================================================== portfolio page css starts from here
+========================================================================================================================= */
+
+
+/* ======================================
+======== portfolio section css starts from here
+========================================= */
+
+
+.portfolio .portfolio_slider .hidden {
+    display: none;
+}
+
+.portfolio .portfolio_slider .active {
+    display: block;
+}
+
+.portfolio .portfolio_slider .active-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.portfolio .portfolio_slider .topbar button {
+    padding: 8px 25px;
+    border-radius: 25px;
+    border: 0;
+}

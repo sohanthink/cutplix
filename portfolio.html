@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <div class="left">
+                    <a class="navbar-brand d-block" href="#"><img src="assets/images/logo-01-01.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+              </div>
+
+              <div class="middle">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item me-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#">Service</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#" >Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Career</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+
+              <div class="right">
+                <a href="#" class="primary_btn me-3">Learn</a>
+                <a href="#" class="secondary_btn">Get in Touch</a>
+              </div>
+              
+            </div>
+          </nav>
+    </section>
+
+
+     <!-- ============================== 
+        [portfolio] section starts from here
+    ================================= -->
+
+
+    <div id="portfolio_section" class="portfolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top_heading text-center">
+                        <h2 class="common-heading">Portfolio</h2>
+                        <span class="common-paragraph pt-4">Browsing Through Our Creative Portfolio Showcase</span>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+
+                    <div class="portfolio_slider">
+                        <div class="topbar text-center mt-5">
+                            <button id="btn11" class="active-button" onclick="PshowDiv(11)">Button 1</button>
+                            <button id="btn12" onclick="PshowDiv(12)">Button 2</button>
+                            <button id="btn13" onclick="PshowDiv(13)">Button 3</button>
+                            <button id="btn14" onclick="PshowDiv(14)">Button 4</button>
+                        </div>
+                    
+                        <div id="div11" class="active">Div 11 is hidden</div>
+                        <div id="div12" class="hidden">Div 12 is hidden</div>
+                        <div id="div13" class="hidden">Div 13 is hidden</div>
+                        <div id="div14" class="hidden">Div 14 is hidden</div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="main">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul>
+                            <li class="pb-4"><b>Reach Us</b></li>
+                            <li><i class="fa-solid fa-phone-volume pe-3"></i>+1012 3456 789</li>
+                            <li class="py-4"><i class="fa-regular fa-envelope pe-3"></i>hello@cutplix.com</li>
+                            <li><i class="fa-solid fa-location-dot pe-3"></i>1230, Dakkhinkhan, Azampur,<br> <span class="ms-4"> Uttara,Dhaka, Bangladesh</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul>
+                            <li class="pb-4"><b>Company</b></li>
+                            <li class="pb-3">Services</li>
+                            <li class="pb-3">Portfolio</li>
+                            <li class="pb-3">Carrer</li>
+                            <li class="pb-3">Learn</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul>
+                            <li class="pb-4"><b>Legal</b></li>
+                            <li class="pb-3">Privacy Policy</li>
+                            <li class="pb-3">Terms and Services</li>
+                            <li class="pb-3">Terms of Use</li>
+                            <li class="pb-3">Refund Policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="content">
+                            <h3 class="pb-2">Join Our Newsletter</h3>
+                            <form action="">
+                                <div class="d-flex">
+                                    <div class="col-auto">
+                                        <label for="inputPassword2" class="visually-hidden">Email</label>
+                                        <input type="password" class="form-control footer_frm" id="inputPassword2" placeholder="Enter Your Email">
+                                      </div>
+                                      <div class="col-auto">
+                                        <button type="submit" class="footer_btn mb-3">Subscribe</button>
+                                      </div>
+                                </div>
+                            </form>
+                            <p class="pt-2">*  Will send you weekly updates for your better tool management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 copyright">
+                        <p class="text-center common-paragraph">Copyright © <a href="https://sohanthink.com/">Sohanthink</a> 2023. All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+       function PshowDiv(divNumber) {
+  for (let i = 11; i <= 14; i++) {
+      const Pdiv = document.getElementById(`div${i}`);
+      const Pbutton = document.getElementById(`btn${i}`);
+
+      if (i === divNumber) {
+          Pdiv.classList.add('active');
+          Pdiv.classList.remove('hidden');
+          Pbutton.classList.add('active-button');
+      } else {
+          Pdiv.classList.remove('active');
+          Pdiv.classList.add('hidden');
+          Pbutton.classList.remove('active-button');
+      }
+  }
+}
+</script>
+
+<!-- Include Bootstrap JavaScript at the end of the body tag to ensure proper functionality -->
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+<!-- <script src="assets/js/index.js"></script> -->
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
