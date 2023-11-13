@@ -369,7 +369,7 @@ img {
     display: block;
 }
 
-.service .service_slider .active-button {
+.service .service_slider .topbar button.active-button {
     background-color: red;
     color: #fff;
     transition: all linear 0.4s;
@@ -380,6 +380,7 @@ img {
     padding: 8px 25px;
     border-radius: 25px;
     border: 0;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 .service .service_slider .topbar {
