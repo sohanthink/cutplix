@@ -357,6 +357,10 @@ img {
 
 
 
+.service .service_slider {
+    position: relative;
+}
+
 .service .service_slider .hidden {
     display: none;
 }
@@ -366,9 +370,11 @@ img {
 }
 
 .service .service_slider .active-button {
-    background-color: #007bff;
+    background-color: red;
     color: #fff;
+    transition: all linear 0.4s;
 }
+
 
 .service .service_slider .topbar button {
     padding: 8px 25px;
@@ -376,8 +382,60 @@ img {
     border: 0;
 }
 
+.service .service_slider .topbar {
+    border: .01px solid rgba(0, 0, 0, 0.231);
+    display: inline-block;
+    border-radius: 25px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+    box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    transition: all linear 0.4s;
+    padding: 3px 3px;
+}
 
+.service .service_slider .inner_part .buttons button {
+    padding: 10px 15px;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
 
+.service .service_slider .inner_part {
+    padding-top: 90px;
+}
+
+.service .service_slider .inner_part p {
+    padding-right: 130px;
+}
+
+.service .service_slider .inner_part .buttons button.active-button {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+    -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
+
+    transition: all linear 0.4s;
+}
+
+.service .service_slider .inner_part .buttons span {
+    height: 25px;
+    width: 25px;
+    background: rgb(200, 200, 200);
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.service .service_slider .inner_part .buttons button.active-button span {
+    background: rgb(255, 0, 0);
+}
 
 /* ==================================
 ======== clients css starts from here
