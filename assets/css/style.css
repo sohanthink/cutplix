@@ -416,8 +416,8 @@ img {
 }
 
 .service .service_slider .inner_part .buttons button.active-button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
     -webkit-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
     -moz-box-shadow: 1px -1px 9px 3px rgba(194, 194, 194, 0.68);
@@ -428,7 +428,7 @@ img {
 .service .service_slider .inner_part .buttons span {
     height: 25px;
     width: 25px;
-    background: rgb(200, 200, 200);
+    background: rgb(231, 231, 231);
     display: inline-block;
     margin-right: 15px;
     border-radius: 50%;
@@ -436,6 +436,22 @@ img {
 
 .service .service_slider .inner_part .buttons button.active-button span {
     background: rgb(255, 0, 0);
+    color: white;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 28%;
+    bottom: -50px;
+    right: 408px;
 }
 
 /* ==================================
