@@ -693,7 +693,7 @@ img {
 }
 
 .portfolio .portfolio_slider .active-button {
-    background-color: #007bff;
+    background-color: rgb(255, 0, 25);
     color: #fff;
 }
 
@@ -703,7 +703,9 @@ img {
     border: 0;
 }
 
-
+/* #portfolio_section .portfolio_video {
+    margin-top: 50px;
+} */
 
 /* =======================================================================================================================
 ==================================================================== carrer page css starts from here

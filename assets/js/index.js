@@ -3,7 +3,7 @@
 // ==========================
 
 function showDiv(divNumber) {
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 15; i++) {
     const div = document.getElementById(`div${i}`);
     const button = document.getElementById(`btn${i}`);
     
@@ -35,6 +35,24 @@ function NestedshowDiv(divNumber) {
     }
   }
 }
+
+//  click active
+let btn1 = document.querySelector("#btn1")
+let div5 = document.querySelector("#div5")
+let btn5 = document.querySelector("#btn5")
+btn1.addEventListener("click",function(){
+  div5.classList.add("active")
+  btn5.classList.add("active-button")
+})
+
+let btn2 = document.querySelector("#btn2")
+let btn9 = document.querySelector("#btn9")
+let div9 = document.querySelector("#div9")
+btn2.addEventListener("click",function(){
+  div9.classList.add("active")
+  btn9.classList.add("active-button")
+})
+
 
 
 // =============================
