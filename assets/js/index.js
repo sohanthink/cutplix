@@ -20,7 +20,7 @@ function showDiv(divNumber) {
 }
 
 function NestedshowDiv(divNumber) {
-  for (let i = 5; i <= 10; i++) {
+  for (let i = 5; i <= 30; i++) {
     const div = document.getElementById(`div${i}`);
     const button = document.getElementById(`btn${i}`);
     
