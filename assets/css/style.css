@@ -440,7 +440,7 @@ img {
     color: white;
 }
 
-.card {
+.service .card {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -703,9 +703,7 @@ img {
     border: 0;
 }
 
-/* #portfolio_section .portfolio_video {
-    margin-top: 50px;
-} */
+
 
 /* =======================================================================================================================
 ==================================================================== carrer page css starts from here
@@ -727,4 +725,27 @@ img {
 
 .carrer_banner h2 span {
     color: red;
+}
+
+/* =======================================================================================================================
+==================================================================== learn page css starts from here
+========================================================================================================================= */
+
+.learn_roadmap .card h5 {
+    font-size: 18px;
+    font-family: var(--primary-font);
+    color: black;
+    font-weight: 600;
+}
+
+.learn_roadmap .card p {
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.learn_roadmap img {
+    width: 100%;
+    background-size: cover;
 }
