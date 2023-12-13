@@ -749,3 +749,44 @@ img {
     width: 100%;
     background-size: cover;
 }
+
+/* =======================================================================================================================
+==================================================================== not sure page css starts from here
+========================================================================================================================= */
+
+.sure {
+    background-image: url(../images/sure/sure.png);
+    width: 100%;
+    height: 100%;
+}
+
+.sure .sure_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.sure .sure_content h2 {
+    font-size: 48px;
+}
+
+.sure .sure_content h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sure .sure_content h3 span {
+    color: red;
+}
+
+.sure .sure_content button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.sure iframe {
+    border: 5px solid rgb(224, 224, 224);
+}
