@@ -64,7 +64,15 @@
             <!-- <iframe width="416" height="250" src="https://www.youtube.com/embed/1j2YXCvTtTs?autoplay=1&mute=1&controls=0" title="Naalayak / Sahil Samuel-Zakir (Official music video 4k) “Hindi Gaane”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 
-            <iframe class="banner_video" src="https://www.youtube.com/embed/WcYmEo9gBfk?autoplay=1&mute=1&controls=0" title="Showreel 🤘- Cutplix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- <iframe class="banner_video" src="https://www.youtube.com/embed/WcYmEo9gBfk?autoplay=1&mute=1&controls=0&loop=1" title="Showreel 🤘- Cutplix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+
+            <!-- <iframe class="banner_video" width="1920" height="929" src="https://www.youtube.com/embed/WT-lgfJaPkM?autoplay=1&mute=1&controls=0&loop=1" title="2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+
+
+
+            <iframe class="banner_video" width="1920" height="100%" src="https://www.youtube.com/embed/arnG_xBcmLs?autoplay=1&mute=1&controls=0&infintie=1" title="Smile Right" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             
             <div class="overlay">
@@ -560,7 +568,26 @@
     </div>
 
 
-
+    <script>
+        // Wait for the iframe to load
+        document.getElementById('youtubeVideo').onload = function() {
+          // Access the contentWindow of the iframe
+          var iframe = document.getElementById('youtubeVideo');
+          var iframeWindow = iframe.contentWindow;
+      
+          // Execute the loop function in the context of the iframe
+          iframeWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+          iframeWindow.postMessage('{"event":"command","func":"mute","args":""}', '*');
+      
+          // Listen for the end of the video and restart it
+          iframeWindow.addEventListener('onStateChange', function(e) {
+            if (e.data === 0) {
+              iframeWindow.postMessage('{"event":"command","func":"seekTo","args":0}', '*');
+              iframeWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            }
+          });
+        };
+      </script>
 
 <!-- Include Bootstrap JavaScript at the end of the body tag to ensure proper functionality -->
 <script src="assets/js/jquery-1.12.4.min.js"></script>
