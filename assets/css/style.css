@@ -776,3 +776,63 @@ img {
 .nav-link {
   color: #000000;
 }
+
+/* /* =======================================================================================================================
+==================================================================== nav page css starts from here
+=== */
+
+@media screen and (max-width: 576px) {
+  .primary_btn {
+    background: red;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .secondary_btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  #slider-container {
+    width: 100%;
+  }
+  .contact .checkbox {
+    flex-direction: column;
+  }
+  .evolution .count {
+    flex-direction: column;
+  }
+  nav .left {
+    width: 120px;
+  }
+  nav .middle .navbar-nav {
+    --bs-scroll-height: 247px;
+    background: white;
+    padding: 17px;
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+  }
+  .banner .overlay span {
+    font-size: 13px;
+    padding: 0;
+  }
+  .banner .overlay h2 {
+    font-size: 15px;
+  }
+  .common-heading {
+    font-size: 25px;
+  }
+  .common-paragraph {
+    font-size: 14px;
+  }
+  .section-padding {
+    padding: 20px;
+  }
+}
+
+/* Styles for screens between 768px and 992px wide */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+/* Styles for screens larger than 992px wide */
+@media screen and (min-width: 993px) {
+}
