@@ -896,13 +896,19 @@ img {
     flex-direction: column;
   }
   .satisfaction .main .img {
-    width: 23%;
+    width: 25%;
+  }
+  .satisfaction .main .img img {
+    width: 100%;
   }
   .contact .main .left .top h3 {
     font-size: 17px;
   }
   .footer .main ul li {
     font-size: 13px;
+  }
+  .satisfaction .flx {
+    width: 315px;
   }
 }
 
