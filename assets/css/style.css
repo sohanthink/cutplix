@@ -801,7 +801,10 @@ img {
     flex-direction: column;
   }
   .evolution .count {
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .evolution .count .one {
+    width: 48%;
   }
   nav .left {
     width: 120px;
@@ -850,12 +853,14 @@ img {
     font-size: 16px;
   }
   .service .service_slider .topbar button {
-    padding: 1px 21px;
+    padding: 5px 14px;
     font-size: 10px;
   }
   .service .service_slider .topbar {
     padding: 0px 0px;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
   .service .service_slider .inner_part {
     padding-top: 40px;
@@ -882,6 +887,22 @@ img {
   .clients .clients_logo {
     padding: 40px 35px;
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .clients .clients_p {
+    font-size: 18px;
+  }
+  .slider-item {
+    flex-direction: column;
+  }
+  .satisfaction .main .img {
+    width: 23%;
+  }
+  .contact .main .left .top h3 {
+    font-size: 17px;
+  }
+  .footer .main ul li {
+    font-size: 13px;
   }
 }
 
