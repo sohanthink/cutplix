@@ -681,6 +681,10 @@ img {
   background-color: rgb(255, 0, 25);
   color: #fff;
 }
+.portfolio .portfolio_slider .portfolio_video iframe {
+  height: 250px;
+  width: 100%;
+}
 
 .portfolio .portfolio_slider .topbar button {
   padding: 8px 25px;
@@ -711,6 +715,10 @@ img {
 /* =======================================================================================================================
 ==================================================================== learn page css starts from here
 ========================================================================================================================= */
+.learn_banner .learn_banner_video iframe {
+  height: 670px;
+  width: 1191px;
+}
 
 .learn_roadmap .card h5 {
   font-size: 18px;
@@ -909,6 +917,21 @@ img {
   }
   .satisfaction .flx {
     width: 315px;
+  }
+  .footer .content .footer_frm {
+    width: 220px;
+  }
+  .portfolio .portfolio_slider .topbar button {
+    padding: 2px 7px;
+    font-size: 13px;
+  }
+  .portfolio .portfolio_slider .portfolio_video iframe {
+    height: 190px;
+    width: 100%;
+  }
+  .learn_banner .learn_banner_video iframe {
+    height: 168px;
+    width: 284px;
   }
 }
 
