@@ -915,6 +915,9 @@ img {
   .satisfaction .main .img {
     width: 25%;
   }
+  .satisfaction .main .content {
+    width: 24%;
+  }
   .satisfaction .main .img img {
     width: 100%;
   }
