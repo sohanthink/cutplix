@@ -986,6 +986,16 @@ img {
   .footer .main::after {
     bottom: 147px;
   }
+  .carrer_banner .carrer_heading {
+    font-size: 26px;
+    line-height: 33px;
+    padding-bottom: 5px;
+  }
+  .primary-btn {
+    font-size: 11px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
 }
 
 /* Styles for screens between 768px and 992px wide */
